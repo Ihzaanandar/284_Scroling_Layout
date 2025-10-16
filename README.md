@@ -11,7 +11,7 @@ Proyek ini merupakan implementasi penggunaan Scrolling Layout pada aplikasi Andr
 - Android Studio (IDE utama pengembangan)
 - Kotlin (bahasa pemrograman)
 - XML Layout (untuk desain tampilan)
-- 
+  
 📂 Struktur Proyek
 app/
  ├─ java/
