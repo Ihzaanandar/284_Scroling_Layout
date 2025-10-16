@@ -15,18 +15,29 @@ Proyek ini merupakan implementasi penggunaan Scrolling Layout pada aplikasi Andr
   
 📂 Struktur Proyek
 app/
- ├─ java/
- │   └─ com.example.posttest/
- │        ├─ MainActivity.kt
- │        └─ ...
- ├─ res/
- │   ├─ layout/
- │   │   └─ activity_main.xml
- │   ├─ drawable/
- │   ├─ values/
- │   └─ ...
- └─ AndroidManifest.xml
 
+ ├─ java/
+ 
+ │   └─ com.example.posttest/
+ 
+ │        ├─ MainActivity.kt
+ 
+ │        └─ ...
+ 
+ ├─ res/
+ 
+ │   ├─ layout/
+ 
+ │   │   └─ activity_main.xml
+ 
+ │   ├─ drawable/
+ 
+ │   ├─ values/
+ 
+ │   └─ ...
+ 
+ └─ AndroidManifest.xml
+ 
 👤 Identitas Pengembang
 Nama: Ihza Ananda Rachman
 NIM: 2300018284
