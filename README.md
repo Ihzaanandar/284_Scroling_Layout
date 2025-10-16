@@ -1,4 +1,5 @@
 📱 Posttest Pemrograman Mobile
+
 Proyek ini merupakan implementasi penggunaan Scrolling Layout pada aplikasi Android menggunakan Kotlin. Tujuan utama dari proyek ini adalah untuk menampilkan konten aplikasi yang panjang secara interaktif dan responsif, dengan tampilan antarmuka yang dapat digulir secara vertikal agar pengalaman pengguna tetap nyaman dan efisien.
 
 🚀 Fitur Utama
