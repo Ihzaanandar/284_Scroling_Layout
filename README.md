@@ -14,21 +14,7 @@ Proyek ini merupakan implementasi penggunaan Scrolling Layout pada aplikasi Andr
 - XML Layout (untuk desain tampilan)
 
 📂 Struktur Proyek
-app/
- ├─ java/
- │   └─ com.example.posttest/
- │        ├─ MainActivity.kt
- │        └─ ...
- ├─ res/
- │   ├─ layout/
- │   │   └─ activity_main.xml
- │   ├─ drawable/
- │   ├─ values/
- │   └─ ...
- └─ AndroidManifest.xml
-
-  
-app/
+ app/
 
  ├─ java/
  
