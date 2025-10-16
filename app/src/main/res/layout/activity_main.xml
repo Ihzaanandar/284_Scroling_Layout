@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <!-- HEADER -->
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:background="@color/navy"
+        android:gravity="center"
+        android:text="@string/header"
+        android:textColor="@color/yellow"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- SCROLL AREA -->
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="369dp"
+        android:layout_height="731dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- ANOMALI 1 -->
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/iwanrotasi" />
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Iwan Rotasi"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word"
+                android:text="Iwan Rotasi merupakan suatu anomali manusia yang memiliki kemampuan unik untuk berputar-putar menggunakan ring roda. Gerakannya yang konstan dan seolah tanpa henti menciptakan fenomena visual yang menarik sekaligus membingungkan bagi siapa pun yang menyaksikannya. Karena keunikannya tersebut, Iwan Rotasi sering dianggap sebagai simbol ketidakteraturan yang justru membentuk pola tersendiri dalam dunia anomali manusia."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!-- BUTTON -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="400px"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:text="Like"
+                    android:backgroundTint="@color/navy"
+                    android:textColor="@color/yellow"/>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="400px"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:text="Share"
+                    android:backgroundTint="@color/navy"
+                    android:textColor="@color/yellow" />
+            </LinearLayout>
+
+            <!-- ANOMALI 2 -->
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/yantogravitasi" />
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Yanto Gravitasi"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word"
+                android:text="Yanto Gravitasi merupakan jenis anomali manusia yang memiliki kemampuan luar biasa untuk mengendalikan gaya gravitasi di atas permukaan bumi. Ia mampu melawan tarikan bumi dan bergerak seolah tanpa bobot, menciptakan ilusi bahwa dirinya dapat melayang dengan mudah. Fenomena ini membuat Yanto Gravitasi sering dianggap sebagai sosok misterius yang menentang hukum fisika dan batasan manusia pada umumnya."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!-- BUTTON -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="400px"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:text="Like"
+                    android:backgroundTint="@color/navy"
+                    android:textColor="@color/yellow" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="450px"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:text="Share"
+                    android:backgroundTint="@color/navy"
+                    android:textColor="@color/yellow" />
+            </LinearLayout>
+
+            <!-- ANOMALI 3 -->
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dikastabilizer" />
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Dika Stabilizer"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word"
+                android:text="Dika Stabilizer merupakan salah satu anomali di bumi yang memiliki kemampuan luar biasa dalam menjaga kestabilan di berbagai jenis trek. Tidak peduli seberapa licin, curam, atau tidak rata permukaannya, ia tetap mampu mempertahankan keseimbangan dengan presisi yang menakjubkan. Kemampuannya ini menjadikan Dika Stabilizer dikenal sebagai simbol ketenangan dan kendali di tengah situasi yang penuh guncangan."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!-- BUTTON -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="400px"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:text="Like"
+                    android:backgroundTint="@color/navy"
+                    android:textColor="@color/yellow" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="400px"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:text="Share"
+                    android:backgroundTint="@color/navy"
+                    android:textColor="@color/yellow"/>
+            </LinearLayout>
+
+            <!-- ANOMALI 4 -->
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/farhanugetuget" />
+
+            <TextView
+                android:id="@+id/title4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Farhan Uget Uget"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:justificationMode="inter_word"
+                android:text="Farhan Uget Uget merupakan jenis anomali yang memiliki kemampuan unik untuk melakukan gerakan “uget-uget” atau menggeliat dengan lincah di atas permukaan licin seperti es. Gerakannya menyerupai cacing yang menari cepat dan gesit, menciptakan pemandangan yang sekaligus lucu dan menakjubkan. Karena kehebatannya dalam bermanuver di medan licin, Farhan Uget Uget sering dijuluki sebagai makhluk dengan kelincahan ekstrem yang menentang logika pergerakan normal manusia."
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <!-- BUTTON -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="400px"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:text="Like"
+                    android:backgroundTint="@color/navy"
+                    android:textColor="@color/yellow" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="400px"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10px"
+                    android:text="Share"
+                    android:backgroundTint="@color/navy"
+                    android:textColor="@color/yellow" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- FOOTER -->
+    <Button
+        android:id="@+id/foooter"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:text="@string/footer"
+        android:textColor="@color/yellow"
+        android:backgroundTint="@color/navy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scrollView2"
+        app:layout_constraintVertical_bias="0.991" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
